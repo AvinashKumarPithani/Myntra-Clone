@@ -33,7 +33,7 @@ header {
     font-weight: 700;
     text-transform: uppercase;
     text-decoration: none;
-    padding: 27px 0;
+    padding: 28px 0;
     border-bottom: 5px solid #ffffff;
 }
 .nav_bar a:hover {
@@ -104,3 +104,29 @@ header {
 
 
 /* Footer Section */
+.footer_container {
+    padding: 30px 0 40px 0;
+    background: #FAFBFC;
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer_column {
+    display: flex;
+    flex-direction: column;
+}
+.footer_column a {
+    color: #696b79;
+    font-size: 15px;
+    text-decoration: none;
+    padding-bottom: 5px;
+}
+.footer_column h3 {
+    color: #282c3f;
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+.copyright {
+    color: #94969f;
+    text-align: end;
+    padding: 15px;
+}
